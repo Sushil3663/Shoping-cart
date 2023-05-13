@@ -1,0 +1,49 @@
+.shopTitle {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+  }
+  .products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  .product {
+    border: 4px solid silver;
+    border-radius: 25px;
+    width: 250px;
+    height: 350px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 180px;
+  }
+  
+  
+  .product .desc {
+    text-align: center;
+    
+  }
+  .product button {
+    border-radius: 10px ;
+    
+  }
+  
+  .product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+ 
+  
